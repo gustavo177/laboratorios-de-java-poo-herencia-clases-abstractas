@@ -1,4 +1,4 @@
-package org.gustavo.pooclasesabstractas.form.elementos;
+package org.gustavo.pooclasesabstractas.form.elementos.select;
 
 abstract public class ElementoForm {
     protected String nombre;

@@ -1,4 +1,4 @@
-package org.gustavo.pooclasesabstractas.form.elementos;
+package org.gustavo.pooclasesabstractas.form.elementos.select;
 
 public class TextareaForm extends ElementoForm {
     private int filas;

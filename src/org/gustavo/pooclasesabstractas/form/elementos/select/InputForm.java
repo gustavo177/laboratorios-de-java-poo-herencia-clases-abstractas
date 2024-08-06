@@ -1,4 +1,4 @@
-package org.gustavo.pooclasesabstractas.form.elementos;
+package org.gustavo.pooclasesabstractas.form.elementos.select;
 
 public class InputForm extends ElementoForm {
     private String tipo = "text";
