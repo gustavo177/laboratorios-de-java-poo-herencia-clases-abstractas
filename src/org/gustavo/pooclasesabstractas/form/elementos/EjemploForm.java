@@ -58,7 +58,6 @@ public class EjemploForm {
         elementos.forEach(e->{
             System.out.println(e.dibujarHtml());
             System.out.println("<br>");
-
         });
     }
 }
