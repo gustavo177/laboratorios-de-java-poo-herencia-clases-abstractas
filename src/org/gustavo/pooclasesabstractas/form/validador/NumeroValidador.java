@@ -10,7 +10,7 @@ public class NumeroValidador extends Validador {
 
     @Override
     public String getMensaje() {
-        return mensaje
+        return mensaje;
     }
 
     @Override
