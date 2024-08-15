@@ -1,35 +1,27 @@
 package org.gustavo.pooclasesabstractas.form.elementos.select;
-
 public class TextareaForm extends ElementoForm {
     private int filas;
     private int columnas;
-
     public TextareaForm(String nombre) {
         super(nombre);
     }
-
     public TextareaForm(String nombre, int filas, int columnas) {
         super(nombre);
         this.filas = filas;
         this.columnas = columnas;
     }
-
     public int getFila() {
         return filas;
     }
-
     public void setFila(int filas) {
         this.filas = filas;
     }
-
     public int getColumnas() {
         return columnas;
     }
-
     public void setColumnas(int columnas) {
         this.columnas = columnas;
     }
-
     @Override
     public String dibujarHtml() {
         return "<textarea name='" + this.nombre + "' cols ='"
