@@ -15,7 +15,6 @@ public class EjemploForm {
         .addOpcion(new Opcion("3", "JavaScript"))
         .addOpcion( new Opcion("4", "TypeScript"))
         .addOpcion(new Opcion("5", "PHP"));
-
         ElementoForm saludar = new ElementoForm() {
             @Override
             public String dibujarHtml() {
