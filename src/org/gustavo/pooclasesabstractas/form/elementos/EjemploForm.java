@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 public class EjemploForm {
     public static void main(String[] args) {
-
         InputForm username = new InputForm("tavo");
         InputForm password = new InputForm("clave", "password");
         InputForm email = new InputForm("email", "email");
