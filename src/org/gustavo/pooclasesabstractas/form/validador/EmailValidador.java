@@ -13,7 +13,6 @@ public class EmailValidador extends Validador{
     public String getMensaje() {
         return mensaje;
     }
-
     @Override
     public boolean esValido(String valor) {
         return valor.matches(EMAIL_REGEX);
