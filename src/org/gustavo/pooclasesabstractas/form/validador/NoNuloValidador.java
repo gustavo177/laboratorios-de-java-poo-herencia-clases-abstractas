@@ -13,4 +13,5 @@ public class NoNuloValidador extends  Validador{
     public boolean esValido(String valor) {
         return (valor != null);
     }
+
 }
