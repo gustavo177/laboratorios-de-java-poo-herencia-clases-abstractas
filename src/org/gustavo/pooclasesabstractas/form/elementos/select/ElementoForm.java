@@ -41,7 +41,6 @@ abstract public class ElementoForm {
                 this.errores.add(v.getMensaje());
             }
         }
-//        return this.errores.isEmpty();
         return this.errores.size() == 0;
     }
     abstract public String dibujarHtml();
