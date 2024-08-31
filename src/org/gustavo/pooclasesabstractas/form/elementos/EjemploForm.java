@@ -1,12 +1,21 @@
 package org.gustavo.pooclasesabstractas.form.elementos;
 import org.gustavo.pooclasesabstractas.form.elementos.select.*;
+import org.gustavo.pooclasesabstractas.form.validador.LargoValidador;
+import org.gustavo.pooclasesabstractas.form.validador.RequeridoValidador;
+
 import java.util.Arrays;
 import java.util.List;
 public class EjemploForm {
     public static void main(String[] args) {
         InputForm username = new InputForm("tavo");
+        username.addValidador(new RequeridoValidador());
+
         InputForm password = new InputForm("clave", "password");
+        password.addValidador(new RequeridoValidador());
+        password.addValidador(new LargoValidador(6,12));
+
         InputForm email = new InputForm("email", "email");
+
         InputForm edad = new InputForm("edad", "number");
         TextareaForm experiencia = new TextareaForm("exp", 5,9);
         SelectForm lenguaje = new SelectForm("lenguaje");
