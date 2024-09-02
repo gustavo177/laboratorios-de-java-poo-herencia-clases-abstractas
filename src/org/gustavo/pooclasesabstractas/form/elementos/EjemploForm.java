@@ -10,11 +10,9 @@ public class EjemploForm {
     public static void main(String[] args) {
         InputForm username = new InputForm("tavo");
         username.addValidador(new RequeridoValidador());
-
         InputForm password = new InputForm("clave", "password");
         password.addValidador(new RequeridoValidador())
                 .addValidador(new LargoValidador(6,12));
-
         InputForm email = new InputForm("email", "email");
         email.addValidador(new RequeridoValidador())
                 .addValidador(new EmailValidador());
