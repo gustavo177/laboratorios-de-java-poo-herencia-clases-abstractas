@@ -37,6 +37,7 @@ public class EjemploForm {
         edad.setValor("28");
         experiencia.setValor("... 5 años de experiencia ...");
         List<ElementoForm> elementos = Arrays.asList(
+
                 username,
                 password,
                 email,
