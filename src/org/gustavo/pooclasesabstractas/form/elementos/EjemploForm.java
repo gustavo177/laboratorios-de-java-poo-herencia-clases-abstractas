@@ -45,7 +45,6 @@ public class EjemploForm {
                 lenguaje,
                 saludar
         );
-
         elementos.forEach(e->{
             System.out.println(e.dibujarHtml());
             System.out.println("<br>");
