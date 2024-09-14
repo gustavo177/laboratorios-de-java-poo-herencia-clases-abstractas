@@ -44,7 +44,6 @@ public class EjemploForm {
                 experiencia,
                 lenguaje,
                 saludar
-
         );
         elementos.forEach(e->{
             System.out.println(e.dibujarHtml());
